@@ -1,0 +1,39 @@
+body {
+    background-image: url('https://cdn.pixabay.com/photo/2018/04/28/22/03/dawn-3358468_960_720.jpg'); 
+    background-size: auto 100vh;  
+    font-family: Time-New-Roman; 
+    height: 100vh;
+    }
+  
+  .menu {
+    background-image:    url('https://cdn.pixabay.com/photo/2015/03/30/12/37/jellyfish-698521_960_720.jpg');
+    background-size: 500px; 
+      font-family: Time-New-Roman; 
+  }
+  
+  .menu li {
+    list-style: none
+  }
+  
+  .menu ul {
+    display: flex; 
+    justify-content: space-between;
+  }
+  
+  a {
+    color: teal; 
+    text-decoration: none; 
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .site-subtitle,
+  .site-tittle {
+    text-align: center;
+    color: whitesmoke; 
+  }
+  
+  .site-subtitle {
+    font-style: italic; 
+  }
